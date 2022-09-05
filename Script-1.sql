@@ -34,8 +34,6 @@ CREATE TABLE IF NOT EXISTS Tracks (
 	album_id INTEGER NOT NULL REFERENCES Albums(id)
 );
 
-drop table tracks 
-
 CREATE TABLE IF NOT EXISTS Collections (
 	id SERIAL PRIMARY KEY,
 	collection_name VARCHAR(40) UNIQUE NOT NULL,
@@ -48,6 +46,5 @@ CREATE TABLE IF NOT EXISTS CollectionsTracks (
 	tracks_id INTEGER REFERENCES Tracks(id),
 	CONSTRAINT pk_2 PRIMARY KEY (collection_id, tracks_id)
 );
-
-drop table collectionstracks 
+ 
 
