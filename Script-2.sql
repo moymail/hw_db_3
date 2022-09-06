@@ -8,7 +8,7 @@ values
 ('Deep Purple'),
 ('David Bowie'),
 ('ABBA'),
-('Lady Gaga')
+('Lady Gaga'),
 ('Camila Cabello');
 
 INSERT INTO Genres(genre_name) 
@@ -29,7 +29,7 @@ VALUES
 ('Machine Head', 1972),
 ('The Rise and Fall of Ziggy Stardust and the Spiders from Mars', 1972),
 ('Greatest Hits Vol. 2', 1979),
-('Chromatica', 2020)
+('Chromatica', 2020),
 ('Camila', 2018);
 
 INSERT INTO Collections (collection_name, release_year)
@@ -42,9 +42,9 @@ VALUES
 ('The Mark II Purple Singles', 1979),
 ('The Best of Bowie', 1980),
 ('ABBA Gold: Greatest Hits', 1992),
-('Bohemian Rhapsody', 2018)
-('Dawn of Chromatica', 2021)
-('Camila', 2018)
+('Bohemian Rhapsody', 2018),
+('Dawn of Chromatica', 2021),
+('Camila', 2018),
 ('Anthology 2', 1996);
 
 INSERT INTO Tracks(track_name, track_duraton, album_id)
@@ -65,8 +65,8 @@ VALUES
 ('Moonlight Drive', 3.04, 4),
 ('Rock and Roll', 3.40, 5),
 ('The Battle of Evermore', 5.57, 5),
-('Stupid Love', 03.13, 9)
-('Consequences', 2.58, 10)
+('Stupid Love', 03.13, 9),
+('Consequences', 2.58, 10),
 ('You Know My Name', 4.21, 1);
 
 INSERT INTO PerformersGenres(genres_id, performers_id) 
@@ -82,7 +82,7 @@ VALUES
 (4,5),
 (5,6),
 (5,7),
-(2,11)
+(2,11),
 (2,12);
 
 INSERT INTO AlbumsPerformers(albums_id, performers_id) 
@@ -94,8 +94,8 @@ VALUES
 (5,5),
 (6,6),
 (7,7),
-(8,8)
-(9,11)
+(8,8),
+(9,11),
 (10,12);
 
 INSERT INTO CollectionsTracks(collection_id, tracks_id) 
@@ -117,6 +117,6 @@ VALUES
 (5,15),
 (5,16),
 (9,3),
-(10,17)
-(11,18)
+(10,17),
+(11,18),
 (12,19);
