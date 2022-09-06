@@ -82,8 +82,8 @@ VALUES
 (4,5),
 (5,6),
 (5,7),
-(2,11),
-(2,12);
+(2,9),
+(2,10);
 
 INSERT INTO AlbumsPerformers(albums_id, performers_id) 
 VALUES
@@ -95,8 +95,8 @@ VALUES
 (6,6),
 (7,7),
 (8,8),
-(9,11),
-(10,12);
+(9,9),
+(10,10);
 
 INSERT INTO CollectionsTracks(collection_id, tracks_id) 
 VALUES
